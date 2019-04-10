@@ -22,6 +22,10 @@ h1, h2, h3, h4 {
     border-radius: 5px;
 }
 
+.botao:hover {
+    background-color: #6A5ACD;
+}
+
 #logo {
     width: 300px;
 }
@@ -40,6 +44,10 @@ nav{
 	top: 0;
 	width: 100%;
     z-index: 1;     /* Correção de sobreposição de objetos - XARK */
+}
+
+nav  li:hover {
+    background-color: #6A5ACD;
 }
 
 nav > a {
@@ -151,6 +159,12 @@ SOBRE
 #sobre .botao {
     background-color: #f1f1f1;
     color: #4d4d4d;
+    font-weight: 600;
+}
+
+#sobre .botao:hover {
+    background-color: #4d4d4d;
+    color: #f1f1f1;
     font-weight: 600;
 }
 
