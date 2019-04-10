@@ -53,7 +53,7 @@ nav > a {
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -88,7 +88,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 20px;
-    margin-top: 287px;
+    margin-top: 55px;
 }
 
 header h1 {
@@ -307,6 +307,7 @@ MEDIA QUERIES
     }
 
     nav ul {
+        display: flex;
         flex-direction: row;
         width: 70%;
     }
@@ -320,7 +321,7 @@ MEDIA QUERIES
         height: 90vh;
         justify-content: center;
         font-size: 30px;
-        margin-top: 70px;
+        margin-top: 25px;
     }
 
     /*
