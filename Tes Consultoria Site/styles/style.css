@@ -100,7 +100,7 @@ header {
 }
 
 header h1 {
-    text-shadow: 2px 2px #000000;
+    text-shadow: 5px 5px #f1eaea;
 }
 
 header p {
@@ -133,6 +133,7 @@ SOBRE
     text-align: center;
     padding: 20px 20px;
     background-color: #6A5ACD;
+    background-image: linear-gradient(to bottom right, #6A5ACD, #00BFFF);
     color: #f1f1f1;
     border-bottom: 10px solid #483D8B;
     border-top: 10px solid #483D8B;
@@ -173,6 +174,7 @@ VANTAGENS
 */
 
 #vantagens {
+    /*background-image: url('../images/back_02.jpg');*/
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -194,6 +196,7 @@ SERVIÇOS
 
 #servicos {
     background-color: #6A5ACD;
+    background-image: linear-gradient(to bottom right, #6A5ACD, #00BFFF);
     color: #f1f1f1;
     padding: 20px;
     display: flex;
@@ -232,6 +235,7 @@ CLIENTES
 */
 
 #clientes {
+    /*background-image: url('../images/back_02.jpg');*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,6 +266,7 @@ CONTATO
 
 #contato {
     background-color: #6A5ACD;
+    background-image: linear-gradient(to bottom right, #6A5ACD, #00BFFF);
     color: #f1f1f1;
     display: flex;
     flex-direction: column;
