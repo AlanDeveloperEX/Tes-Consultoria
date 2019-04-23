@@ -100,7 +100,7 @@ header {
 }
 
 header h1 {
-    text-shadow: 5px 5px #f1eaea;
+    text-shadow: 5px 5px 10px #f1eaea;
 }
 
 header p {
@@ -141,6 +141,7 @@ SOBRE
 
 #sobre h2 {
     text-shadow: 2px 2px #000000;
+	margin-top: 30px;
 }
 
 #sobre h3 {
@@ -174,20 +175,27 @@ VANTAGENS
 */
 
 #vantagens {
-    /*background-image: url('../images/back_02.jpg');*/
+    background-image: url('../images/back-02.png');
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+	border-radius: 5px;
 }
 
 #vantagens h2 {
     font-weight: 700;
     text-shadow: 2px 2px #887272;
+	color: #000000;
+	margin-top: 30px;
 }
 
 #vantagens li {
 	margin-bottom: 10px;
+	color: #000000;
 }
 
 /*
@@ -211,7 +219,7 @@ SERVIÇOS
 }
 
 #servicos h2 {
-
+	margin-top: 30px;
 }
 
 #servicos div {
@@ -235,7 +243,7 @@ CLIENTES
 */
 
 #clientes {
-    /*background-image: url('../images/back_02.jpg');*/
+    background-image: url('../images/back_02.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,6 +254,7 @@ CLIENTES
     /*margin-bottom: 15px;
     text-shadow: 2px 2px #000000;*/
     margin-bottom: 20px;
+	margin-top: 30px;
 }
 
 #clientes p {
