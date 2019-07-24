@@ -263,7 +263,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 
 #servicos #list {
@@ -271,7 +271,7 @@ h4 {
 }
 
 #servicos img {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 /*
