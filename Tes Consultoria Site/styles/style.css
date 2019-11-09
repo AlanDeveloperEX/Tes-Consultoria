@@ -18,6 +18,11 @@ h4 {
 
 h2 {
   color: #40bdb8;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 23px;
 }
 
 .botao {
@@ -46,8 +51,10 @@ h2 {
   background-color: #000;
   color: white;
   cursor: pointer;
-  padding: 25px;
+  padding: 13px 16px;
   border-radius: 4px;
+  font-weight: 900;
+  font-size: 18px;
 }
 
 #button_back:hover {
@@ -55,7 +62,7 @@ h2 {
 }
 
 #logo {
-  width: 250px;
+  width: 210px;
   margin-top: 2px;
 }
 
@@ -111,6 +118,7 @@ nav ul li a {
   width: 100%;
   text-decoration: none;
   color: #f1f1f1;
+  font-size: 14px;
 }
 
 /*
@@ -168,8 +176,8 @@ SOBRE
   background-color: #2e2e2e;
   background-image: linear-gradient(to bottom right, #2e2e2e, #898484);
   color: #f1f1f1;
-  border-bottom: 10px solid #bcb7b7;
-  border-top: 10px solid #bcb7b7;
+  border-bottom: 5px solid #bcb7b7;
+  border-top: 5px solid #bcb7b7;
 }
 
 #sobre h2 {
@@ -189,12 +197,14 @@ SOBRE
 #sobre p {
   margin-bottom: 2.5em;
   max-width: 1000px;
+  font-size: 18px;
 }
 
 #sobre .botao {
   background-color: #f1f1f1;
   color: #4d4d4d;
   font-weight: 600;
+  font-size: 18px;
 }
 
 #sobre .botao:hover {
@@ -230,6 +240,7 @@ VANTAGENS
   margin-bottom: 10px;
   color: #000000;
   list-style-type: circle;
+  font-size: 18px;
 }
 
 /*
@@ -240,8 +251,8 @@ SERVIÇOS
   background-color: #2e2e2e;
   background-image: linear-gradient(to bottom right, #2e2e2e, #898484);
   color: #f1f1f1;
-  border-bottom: 10px solid #bcb7b7;
-  border-top: 10px solid #bcb7b7;
+  border-bottom: 5px solid #bcb7b7;
+  border-top: 5px solid #bcb7b7;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -312,13 +323,13 @@ CONTATO
   background-color: #2e2e2e;
   background-image: linear-gradient(to bottom right, #2e2e2e, #898484);
   color: #f1f1f1;
-  border-bottom: 10px solid #bcb7b7;
-  border-top: 10px solid #bcb7b7;
+  border-bottom: 5px solid #bcb7b7;
+  border-top: 5px solid #bcb7b7;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 10px 15%;
 }
 
 #contato h2 {
@@ -327,10 +338,15 @@ CONTATO
 
 #contato a {
   color: #f1f1f1;
+  font-size: 15px;
 }
 
 #contato img {
-  width: 80px;
+  width: 40px;
+}
+
+.logo_partners {
+  width: 120px;
 }
 
 /*
@@ -343,7 +359,11 @@ footer {
   align-items: center;
   background-color: #2e2e2e;
   color: #f1f1f1;
-  padding: 25px 25px;
+  padding: 12px 25px;
+}
+
+footer > a {
+  font-size: 15px;
 }
 
 /*
@@ -370,7 +390,7 @@ MEDIA QUERIES
   nav ul {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 450px;
   }
 
   /*
@@ -413,8 +433,7 @@ MEDIA QUERIES
   }
 
   .list > li {
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding: 15px 0;
   }
 
   /*
@@ -433,11 +452,12 @@ MEDIA QUERIES
     text-align: center;
     width: 100%;
     font-size: 50px;
+    font-size: 30px;
   }
 
   #servicos div {
     flex-grow: 1;
-    flex-basis: 150px;
+    flex-basis: 285px;
     padding: 0 5px;
   }
 
@@ -473,7 +493,7 @@ MEDIA QUERIES
   }
 
   #contato h2 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   #contato a {
