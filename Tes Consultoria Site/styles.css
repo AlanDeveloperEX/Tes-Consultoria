@@ -176,8 +176,7 @@ main .sobre {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
-
-  padding: 0;
+  padding: 35px 0 0 0;
 }
 
 main .sobre div div {
@@ -214,6 +213,14 @@ main .question ul {
   justify-content: center;
   margin: 0 auto;
   padding: 0;
+}
+@media (max-width: 500px) {
+  #vantagens ul li {
+    margin: 0 35px;
+  }
+  .keep_grid {
+    margin-top: 2.67em;
+  }
 }
 
 /*-----v<section.servicos>v-----*/
@@ -255,6 +262,9 @@ main .servicos .b2 ul {
 
   margin: 0 auto;
   padding: 0;
+}
+.icons_services {
+  width: 125px;
 }
 
 /*-----v<section.contato>v-----*/
