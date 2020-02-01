@@ -4,9 +4,14 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Tes Consultoria</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="icons/favicon.png" />
     <script async src="script.js"></script>
     <style></style>
     <script></script>
@@ -66,6 +71,84 @@
           style="width: 190px;"
         />
       </section>
+
+      <div class="topnav">
+        <a href="index.html" class="active">
+          <img src="icons/logo_tes.png" alt="logo_tes" width="145px" />
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <!-- OVERLAY NAV -->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <ul class="list_overlay">
+            <li>
+              <a
+                href="#sobre"
+                class="links_rodape"
+                style="margin-right: 10px; color: #fff; font-weight: normal;"
+                onclick="closeNav()"
+                >Sobre</a
+              >
+              <a
+                href="#vantagens"
+                class="links_rodape"
+                style="margin-right: 10px; color: #fff; font-weight: normal;"
+                onclick="closeNav()"
+                >Vantagens</a
+              >
+              <a
+                href="#servicos"
+                class="links_rodape"
+                style="margin-right: 10px; color: #fff; font-weight: normal;"
+                onclick="closeNav()"
+                >Servicos</a
+              >
+              <a
+                href="#clientes"
+                class="links_rodape"
+                style="margin-right: 10px; color: #fff; font-weight: normal;"
+                onclick="closeNav()"
+                >Clientes</a
+              >
+              <a
+                href="#contato"
+                class="links_rodape"
+                style="margin-right: 10px; color: #fff; font-weight: normal;"
+                onclick="closeNav()"
+                >Contato</a
+              >
+            </li>
+            <li class="into_li_flex">
+              <a
+                href="https://www.facebook.com/TES-Consultoria-e-Treinamentos-247625099220622/"
+                target="_blank"
+              >
+                <img src="icons/facebook.png" style="width: 30px;" />
+              </a>
+              <a
+                href="https://www.instagram.com/rafa_tes/?hl=pt-b"
+                target="_blank"
+              >
+                <img src="icons/insta.png" style="width: 30px;" />
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511971141493"
+                title="Whatsapp"
+                target="_blank"
+              >
+                <img src="icons/telefone.png" style="width: 30px;" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
 
       <nav class="menu">
         <a href="#sobre">Sobre</a>

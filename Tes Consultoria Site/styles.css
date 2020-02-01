@@ -40,14 +40,6 @@ line {
   align-items: center;
 }
 
-/*.icon {
-	width: 1em;
-	height: 1em;
-	fill: currentColor;
-	vertical-align: middle;
-	overflow: hidden;
-	margin: 5px;
-}*/
 /*------------------------v<header>v------------------------*/
 /*-----v<section.info>v-----*/
 header .info {
@@ -136,6 +128,122 @@ header .menu a:hover {
   color: #fff;
 }
 /*FIXED MENU END*/
+/*FIXED MOBILE MENU START*/
+.topnav {
+  display: none;
+}
+@media (max-width: 480px) {
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    display: block;
+    z-index: 999;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333c;
+    box-shadow: -2px 7px 5px rgba(210, 210, 210, 0.7);
+    color: #fff;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  a > i.fa.fa-bars {
+    padding: 15px 10px;
+  }
+}
+/*FIXED MOBILE MENU END*/
+/* OVER NAV */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #363939;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 9999;
+  opacity: 0.95;
+}
+
+.list_overlay {
+  margin: 0;
+  padding: 0;
+}
+
+.overlay-content {
+  position: relative;
+  top: 2%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 20px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -7px;
+  right: 10px;
+  font-size: 35px;
+}
+
+.list_overlay > li {
+  padding-top: 15px;
+  scroll-padding-bottom: 15px;
+}
+
+.into_li_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.list_overlay > li a img {
+  padding-top: 15px;
+  scroll-padding-bottom: 15px;
+  margin: 0 13px;
+}
+/*overlay final*/
 
 /*------------------------v<main>v------------------------*/
 /*-----v<section.boxSlider>v-----*/
@@ -398,6 +506,7 @@ footer .socialMedia {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    display: none !important;
   }
 
   main .boxSlider {
